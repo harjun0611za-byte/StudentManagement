@@ -38,3 +38,14 @@ def search_student():
             return
 
     print("Student not found.")
+ 
+def delete_student():
+    roll = input("Enter Roll Number to delete: ")
+
+    for s in students:
+        if s["roll"] == roll:
+            students.remove(s)
+            print("Student deleted successfully!")
+            return
+
+    print("Student not found.")

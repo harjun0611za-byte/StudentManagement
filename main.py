@@ -7,6 +7,7 @@ while True:
     print("2. Display Students")
     print("3. Search Student")
     print("4. Exit")
+    print("5. Delete Student")
 
     choice = input("Enter your choice: ")
 
@@ -22,6 +23,9 @@ while True:
     elif choice == "4":
         print("Exiting program...")
         break
+        
+    elif choice == "5":
+    	student.delete_student()
 
     else:
         print("Invalid choice! Try again.")
