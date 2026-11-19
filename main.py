@@ -1,5 +1,6 @@
 import student
 
+print("Welcome to Student Management System")
 while True:
     print("\n===== Student Management System =====")
     print("1. Add Student")
